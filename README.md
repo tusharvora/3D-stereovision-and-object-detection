@@ -1,5 +1,5 @@
 # 3D-stereovision-and-object-detection
-
+The project report and the video can be found here- https://tusharvora.weebly.com/3d-machine-vision.html
 # Project Overview
 -This project was part of  a course "3d machine vision" in Carleton University tauhgt by Professor Paul Harrison.
 -The project uses stereo machine vision concepts to autonomously identify objects ,pose estimation and the real world depth.
@@ -11,6 +11,7 @@
 -To estimate pose of the objects
 
 # Process / Solution
+The Matlab code is developed to complete the task which contains comments for self explanation.The main file name is "Final_3d_code.m"
 -Camera calibration was performed manually by selecting similar points on both the stereo images.
 -Object detection and object identification was performed by blob analysis technique.
 -The points in one stereo image was matched on the another image by local stereo matching technique i.e Sum of square difference of intensities
